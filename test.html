@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- My autobiography project head -->
+    <meta charset="utf-8" />
+    <meta name="Favorites" content="A site of my favorite things" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.8.0/mdb.min.css"
+    />
+
+    <title>Jesse Sites - Test</title>
+  </head>
+
+  <body class="body_content">
+    <!-- nav -->
+    <header class="header_content">
+      <h1 class="heading_content">Test for Code</h1>
+      <div class="flex_container">
+        <nav>
+          <ul>
+            <li>
+              <button><a href="index.html">Home Page</a></button>
+            </li>
+            <li>
+              <button><a href="favorites.html">Favorites Page</a></button>
+            </li>
+            <li>
+              <button>
+                <a href="mailto:jsites110514@mymail.tstc.edu">Email</a>
+              </button>
+            </li>
+            <li>
+              <button><a href="gallery.html">Gallery</a></button>
+            </li>
+            <li>
+              <button><a href="resume.html">Resume</a></button>
+            </li>
+            <li>
+              <button><a href="contact-me.html">Contact-Me</a></button>
+            </li>
+            <li>
+              <button><a href="test.html">Test</a></button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Test form
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-mdb-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <form
+                name="myForm"
+                onsubmit="return validateForm()"
+                method="post"
+              >
+                Name: <input type="text" name="fname" />
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Test accordion - (No library/framework)
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-mdb-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <button class="accordion">Section 1</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>
+
+              <button class="accordion">Section 2</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>
+
+              <button class="accordion">Section 3</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Accordion Item #3
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-mdb-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life
+              accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+              cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+              laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+              on it squid single-origin coffee nulla assumenda shoreditch et.
+              Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+              lomo. Leggings occaecat craft beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them
+              accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MDB js -->
+      <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.8.0/mdb.min.js"
+      ></script>
+      <script type="text/javascript" src="js/javascript.js"></script>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <address>
+        <a href="mailto:jsites110514@mymail.tstc.edu">Email</a>
+      </address>
+      <p>Copyright: &copy; Jesse Sites - 2021</p>
+    </footer>
+  </body>
+</html>

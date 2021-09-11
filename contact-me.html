@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- My autobiography project head -->
+    <meta charset="utf-8" />
+    <meta name="Autobiography" content="An autobiography about Jesse Sites" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jesse Sites - Contact Me</title>
+  </head>
+
+  <body class="body_content">
+    <!-- 1 h1 tag only -->
+
+    <!-- nav -->
+    <header class="header_content">
+      <section>
+        <h1 class="heading_content">My Contact Form</h1>
+      </section>
+      <div class="flex_container">
+        <nav>
+          <ul>
+            <li>
+              <button><a href="index.html">Home Page</a></button>
+            </li>
+            <li>
+              <button><a href="favorites.html">Favorites Page</a></button>
+            </li>
+            <li>
+              <button>
+                <a href="mailto:jsites110514@mymail.tstc.edu">Email</a>
+              </button>
+            </li>
+            <li>
+              <button><a href="gallery.html">Gallery</a></button>
+            </li>
+            <li>
+              <button><a href="resume.html">Resume</a></button>
+            </li>
+            <li>
+              <button><a href="contact-me.html">Contact-Me</a></button>
+            </li>
+            <li>
+              <button><a href="test.html">Test</a></button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- form -->
+    <main class="main_columns">
+      <form
+        action="mailto:jsites110514@mymail.tstc.edu"
+        method="get"
+        enctype="text/plain"
+      >
+        <div class="form_group">
+          <label for="name">Name:</label>
+          <input id="name" name="name" type="text" /><br />
+
+          <label for="email">Email:</label>
+          <input id="email" name="email_address" type="email" /><br />
+        </div>
+        <label for="favorite_color">Favorite website color:</label>
+        <input id="favorite_color" name="favorite_color" type="color" /><br />
+
+        <label for="page">Which page did you like best?</label>
+        <input
+          type="radio"
+          id="home"
+          name="page"
+          value="home"
+          checked="checked"
+        />
+        <label for="home">Home Page</label>
+        <input type="radio" id="favorites" name="page" value="favorites" />
+        <label for="favorites">Favorites</label>
+        <input type="radio" id="email" name="page" value="email" />
+        <label for="email">Email</label>
+        <input type="radio" id="gallery" name="page" value="gallery" />
+        <label for="gallery">Gallery</label>
+        <input type="radio" id="resume" name="page" value="resume" />
+        <label for="resume">Resume</label>
+        <input type="radio" id="contact-me" name="page" value="contact-me" />
+        <label for="contact-me">Contact-Me</label><br />
+
+        <label for="infooptions">Do you want to recieve:</label>
+        <input type="checkbox" id="news" name="infooptions" value="news" />
+        <label for="news">News</label>
+        <input
+          type="checkbox"
+          id="updates"
+          name="infooptions"
+          value="updates"
+        />
+        <label for="updates">Updates</label><br />
+
+        <label for="comment">Comments:</label>
+        <textarea id="comment" name="comment" type="text" rows="3"> </textarea
+        ><br />
+
+        <button type="submit">Submit</button>
+
+        <button type="reset">Reset</button>
+      </form>
+    </main>
+
+    <footer>
+      <address>
+        <a href="mailto:jsites110514@mymail.tstc.edu">Email</a>
+      </address>
+      <p>Copyright: &copy; Jesse Sites - 2021</p>
+    </footer>
+  </body>
+</html>
