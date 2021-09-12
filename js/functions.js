@@ -1,3 +1,5 @@
+/* validation */
+
 function validateForm() {
   let x = document.forms["myForm"]["fname"].value;
   if (x == "") {
@@ -5,6 +7,8 @@ function validateForm() {
     return false;
   }
 }
+
+/* accordion */
 
 var acc = document.getElementsByClassName("accordion");
 var i;
