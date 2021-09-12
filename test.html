@@ -61,6 +61,7 @@
 
     <main>
       <!-- MDB accordion -->
+      <h3 class="font-weight-bold">Bootstrap Accordion</h3>
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <!-- accordion item - vanilla js validation -->
         <div class="accordion-item">
@@ -73,7 +74,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              Test form
+              JavaScript Validated Form - (No library/framework)
             </button>
           </h2>
           <div
@@ -83,11 +84,7 @@
             data-mdb-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              <form
-                name="myForm"
-                onsubmit="return validateForm()"
-                method="get"
-              >
+              <form name="myForm" onsubmit="return validateForm()" method="get">
                 Name: <input type="text" name="fname" />
                 <input type="submit" value="Submit" />
               </form>
@@ -105,7 +102,7 @@
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              Test accordion - (No library/framework)
+              JavaScript Accordion - (No library/framework)
             </button>
           </h2>
           <div
