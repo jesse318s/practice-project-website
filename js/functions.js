@@ -1,6 +1,8 @@
 /* form validation */
+document.getElementById('myForm').addEventListener('submit', validateForm);
+
 function validateForm() {
-  let x = document.forms["myForm"]["fname"].value;
+  let x = document.forms["myForm"]["name"].value;
   if (x == "") {
     alert("Name must be filled out");
     return false;

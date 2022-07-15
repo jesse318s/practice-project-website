@@ -104,10 +104,6 @@ figure {
 
 /*nav*/
 
-.flex_container {
-  display: flex;
-}
-
 nav a {
   text-decoration: none;
   background-color: white;
@@ -212,10 +208,6 @@ footer {
   column-count: 2;
 }
 
-.img_adjustments {
-  float: left;
-}
-
 .grid_container {
   display: grid;
   margin: auto;
@@ -258,19 +250,6 @@ table {
     grid-template-columns: auto;
     position: relative;
     right: 354px;
-  }
-
-  .img_adjustments {
-    float: none;
-    position: relative;
-    right: 398px;
-  }
-
-  .flex_container {
-    display: grid;
-    grid-template-columns: 150px;
-    position: relative;
-    bottom: 38px;
   }
 
   h1 {
