@@ -32,7 +32,7 @@ function validateForm(event) {
   name = name.trim();
 
   if (name === "") {
-    // prevent form refresh by default
+    // prevent form submission and page refresh
     event.preventDefault();
 
     // log failed name input validation
