@@ -32,7 +32,7 @@ function validateForm(event) {
     // prevent form refresh by default
     event.preventDefault();
 
-    console.log("Name must be filled out.")
+    console.log("Name must be filled out.");
 
     alert("Name must be filled out.");
 

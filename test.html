@@ -3,9 +3,9 @@
   <head>
     <!-- My autobiography project head -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="Favorites" content="A site of my favorite things" />
 
-    <!-- links -->
     <link rel="icon" href="img/favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -19,7 +19,6 @@
       rel="stylesheet"
     />
 
-    <!-- scripts -->
     <script src="js/functions.js" defer></script>
 
     <title>Jesse Sites - Test</title>
@@ -31,29 +30,31 @@
       <h1 class="heading_content">Test for Programming</h1>
       <nav>
         <ul>
-          <li>
-            <button><a href="index.html">Home Page</a></button>
-          </li>
-          <li>
-            <button><a href="favorites.html">Favorites Page</a></button>
-          </li>
-          <li>
-            <button>
-              <a href="mailto:jsites110514@mymail.tstc.edu">Email</a>
-            </button>
-          </li>
-          <li>
-            <button><a href="gallery.html">Gallery</a></button>
-          </li>
-          <li>
-            <button><a href="resume.html">Resume</a></button>
-          </li>
-          <li>
-            <button><a href="contact-me.html">Contact-Me</a></button>
-          </li>
-          <li>
-            <button><a href="test.html">Test</a></button>
-          </li>
+          <div class="flex_container">
+            <li>
+              <button><a href="index.html">Home Page</a></button>
+            </li>
+            <li>
+              <button><a href="favorites.html">Favorites Page</a></button>
+            </li>
+            <li>
+              <button>
+                <a href="mailto:jsites110514@mymail.tstc.edu">Email</a>
+              </button>
+            </li>
+            <li>
+              <button><a href="gallery.html">Gallery</a></button>
+            </li>
+            <li>
+              <button><a href="resume.html">Resume</a></button>
+            </li>
+            <li>
+              <button><a href="contact-me.html">Contact-Me</a></button>
+            </li>
+            <li>
+              <button><a href="test.html">Test</a></button>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>
@@ -64,7 +65,7 @@
       <button class="accordion">Form Validation</button>
       <div class="panel">
         <!-- form validation input -->
-        <form name="myForm" id="myForm" method="get">
+        <form class="my_form" name="myForm" id="myForm" method="get">
           Name: <input type="text" name="name" />
           <input type="submit" value="submit" />
         </form>

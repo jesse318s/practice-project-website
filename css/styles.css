@@ -71,10 +71,6 @@ nav ul {
   list-style: none;
 }
 
-nav li {
-  display: inline-block;
-}
-
 #picture {
   margin: 0;
   padding: 0;
@@ -95,6 +91,10 @@ figure {
   text-align: center;
 }
 
+.my_form {
+  margin: 5px 0px 5px 0px;
+}
+
 /*gallery*/
 
 .col {
@@ -104,6 +104,13 @@ figure {
 
 /*nav*/
 
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 25px;
+}
+
 nav a {
   text-decoration: none;
   background-color: white;
@@ -112,13 +119,11 @@ nav a {
 nav a:link {
   border: none;
   padding: 15 32 15 32;
-  display: inline block;
 }
 
 nav a:visited {
   border: none;
   padding: 15 32 15 32;
-  display: inline block;
 }
 
 /*accordion*/
@@ -236,9 +241,9 @@ table {
 
 /*phone media query*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 412px) {
   .body_content {
-    max-width: 414px;
+    max-width: 412px;
   }
 
   .main_columns {
@@ -249,7 +254,15 @@ table {
     display: grid;
     grid-template-columns: auto;
     position: relative;
-    right: 354px;
+    grid-gap: 2px;
+    right: 350px;
+  }
+
+  .flex_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 350px;
   }
 
   h1 {
