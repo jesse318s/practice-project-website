@@ -28,12 +28,17 @@ function validateForm(event) {
   // set name equal to name input value in form
   let name = document.forms["myForm"]["name"].value;
 
+  // remove unnecessary whitespace from name input value
+  name = name.trim();
+
   if (name === "") {
     // prevent form refresh by default
     event.preventDefault();
 
+    // log failed name input validation
     console.log("Name must be filled out.");
 
+    // alert user of failed name input validation
     alert("Name must be filled out.");
 
     return false;
