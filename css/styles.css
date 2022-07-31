@@ -237,6 +237,12 @@ table {
     grid-template-columns: auto auto;
     grid-gap: 5px;
   }
+
+  .flex_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 }
 
 /*phone media query*/
