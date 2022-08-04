@@ -233,23 +233,23 @@ table {
 
 @media screen and (max-width: 1024px) {
   .grid_container {
-    display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
+    position: relative;
+    right: 80px;
   }
 
   .flex_container {
     display: flex;
     flex-direction: column;
-    position: relative;
   }
 }
 
 /*phone media query*/
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 640px) {
   .body_content {
-    max-width: 412px;
+    max-width: 640px;
   }
 
   .main_columns {
@@ -257,7 +257,6 @@ table {
   }
 
   .grid_container {
-    display: grid;
     grid-template-columns: auto;
     position: relative;
     grid-gap: 2px;
@@ -265,8 +264,6 @@ table {
   }
 
   .flex_container {
-    display: flex;
-    flex-direction: column;
     position: relative;
     right: 350px;
   }
