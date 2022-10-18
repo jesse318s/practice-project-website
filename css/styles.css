@@ -272,4 +272,9 @@ table {
     position: relative;
     right: 340px;
   }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
 }
