@@ -19,12 +19,10 @@ for (let i = 0; i < acc.length; i++) {
   });
 }
 
-
-
 // form validation
-document.getElementById('myForm').addEventListener('submit', validateForm);
+document.getElementById("myForm").addEventListener("submit", validateForm);
 
-function validateForm(event) {
+export default function validateForm(event) {
   // set name equal to name input value in form
   let name = document.forms["myForm"]["name"].value;
 
