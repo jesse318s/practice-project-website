@@ -230,7 +230,6 @@ table {
 }
 
 /*tablet media query*/
-
 @media screen and (max-width: 1024px) {
   .grid_container {
     grid-template-columns: auto auto;
@@ -245,7 +244,6 @@ table {
 }
 
 /*phone media query*/
-
 @media screen and (max-width: 640px) {
   .body_content {
     max-width: 640px;
