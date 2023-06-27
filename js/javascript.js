@@ -1,5 +1,3 @@
-"use strict";
-
 // accordion
 let acc = document.getElementsByClassName("accordion");
 
